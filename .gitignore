@@ -1,0 +1,14 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Local scratch files
+work/
+
+# Conda / virtual environments
+.venv/
+venv/
+env/
+
+# SMPL model files are too large and license-restricted for GitHub.
+models/**/*.pkl
